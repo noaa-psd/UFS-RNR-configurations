@@ -20,11 +20,17 @@ States Government.
 This repository contains configurations for each release of the
 Unified Forecast System (UFS) Reanalysis and Reforecasting (RNR)
 system which can be found [here](https://github.com/noaa-psd/UFS-RNR).
-To obtain the entire UFS-RNR configuration archive, do:
+To obtain the UFS-RNR configuration archive for a specific UFS-RNR
+release, do:
 
 ~~~
-user@host:$ git clone --recursive https://github.com/noaa-psd/UFS-RNR-configurations
+user@host:$ git clone --branch release/ufsrnr.v### --recursive https://github.com/noaa-psd/UFS-RNR-configurations
 ~~~
+
+where `release/ufsrnr.v###` is the respective UFS-RNR release against
+which to compare. Note that the latest UFS-RNR `develop` branch
+configuration will be that contained in the `main` branch of this
+repository.
 
 # Configuration Archives
 
